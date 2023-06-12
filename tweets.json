@@ -1,0 +1,16 @@
+[
+    {
+        "displayName": "John",
+        "userName": "@JohnWest",
+        "timeAgo": "27d",
+        "content": "Test Tweet!",
+        "image": "https://picsum.photos/id/237/536/354"
+    },
+    {
+        "displayName": "John N",
+        "userName": "@JohnNortj",
+        "timeAgo": "4h",
+        "content": "Test Tweet!",
+        "image": "https://picsum.photos/id/237/536/354"
+    }
+]

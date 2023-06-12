@@ -17,6 +17,18 @@ function showTweet(tweet) {
         tweetsSection.appendChild(tweetArticle);
 }
 
+function loadTweets() {
+    fetch("./tweets.json")
+        .then((response) => response.json())
+        .then(showTweets);
+}
+
+function showTweets(tweets) {
+    for(let tweet of tweets) {
+        showTweet(tweet);
+    }
+}
+
 const testTweet = {
     displayName: "John",
     userName: "@JohnWest",
@@ -25,4 +37,6 @@ const testTweet = {
     image: "https://picsum.photos/id/237/536/354"
 };
 
-showTweet(testTweet);
+// showTweet(testTweet);
+
+loadTweets();
