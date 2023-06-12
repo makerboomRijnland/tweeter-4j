@@ -5,12 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tweeter</title>
+        <script src="tweeter.js" defer></script>
     </head>
     <body>
         <h1>Tweeter</h1>
 
         <section id="tweets">
-            <article class="tweet">
+            <!-- <article class="tweet">
                 <h2 class="heading">
                     <span class="displayName">John</span>
                     <span class="userName">@JohnWest</span>
@@ -20,7 +21,22 @@
                 <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At delectus temporibus nesciunt error placeat quam, quasi, voluptas necessitatibus asperiores voluptatum magni alias voluptatibus eveniet minima est, debitis ducimus. Aspernatur, deserunt.</p>
 
                 <img class="image" src="https://picsum.photos/seed/966/200/300" alt="" />
-            </article>
+            </article> -->
         </section>
+
+
+        <template id="tweet-template">
+            <article class="tweet">
+                <h2 class="heading">
+                    <span class="displayName"></span>
+                    <span class="userName"></span>
+                    <span class="timeAgo"></span>
+                </h2>
+
+                <p class="content"></p>
+
+                <img class="image" src="" alt="" />
+            </article>
+        </template>
     </body>
 </html>
